@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+body{
+    font-family: "Rajdhani", sans-serif;
+    padding-top: 6vh;
+    color:grey;
+}
+
+.logo{
+    height:5vh;
+}
+.link{
+    float:right;
+    text-decoration: none;
+    color:grey;
+    margin:2vh;
+    transition: 0.3s;
+}
+.link:hover{
+    color:#364f6b;
+    transition: 0.3s;
+    text-decoration: wavy underline #364f6b  ;
+}
+.hero_image{
+    /*height: 35vh;*/
+    -webkit-filter: grayscale(100%); 
+    filter: grayscale(100%);
+    width: 100%;
+    float:right;
+    margin-right:2vh;
+    filter: blur(0.1);
+}
+.hero_image:hover{
+    filter: grayscale(0);
+    filter: blur(0);
+    -webkit-filter: none;
+    transition: 0.3s ease-in-out;
+
+}
+.hero_title{
+    font-weight: 400;
+    padding-top: 8vh;
+    
+}
+.hero{
+    padding-top: 6vh;
+}
+.hero_details{
+    font-family: "Zilla Slab", serif;
+    width:80%;
+}
+.services{
+    padding-top: 5vh;
+    background-color: rgb(237, 237, 237);
+    margin-right:2vh;
+    margin-top: 5vh;
+}
+.image_service{
+    width:100%;
+    height:30vh;
+    
+
+}
+.image_service:hover,.gallery_item:hover{
+    opacity: 0.6;
+    transition: 0.2s ease-in-out;
+    
+    filter: contrast(1.5);
+    border-radius: 10px;
+}
+.service{
+    margin:1vh;
+}
+.header_service{
+    margin:2vh 0 2vh 0;
+    font-size: 2em;
+    font-weight: 600;
+}
+.text_service{
+    text-align: justify;
+    font-family: "Zilla Slab", serif;
+}
+iframe{
+    width: 100%;
+    height:40vh;
+    position:relative;
+    left:-1.2vh;
+}
+.contact{
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+}
+.header_contact{
+    color:black;
+}
+.contact_option{
+    font-weight: 500;
+}
+.copyright{
+    text-align: center;
+    font-size: 1em;
+}
+.gallery_item{
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+a{
+    text-decoration: none;
+    color: grey;
+    
+}
+a:hover{
+    color: #364f6b;
+}
+.kontakt{
+    margin-top: 2vh;
+}
+li{
+    text-decoration: none;
+    list-style: none;
+}
+.modre{
+    background-color: aqua;
+}
+.a{
+    width: 25%;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.ul li{
+    list-style:square;
+}
